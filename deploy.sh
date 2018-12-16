@@ -1,3 +1,4 @@
+# deploy.sh
 docker build -t mitchm101/multi-client:latest -t mitchm101/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t mitchm101/multi-server:latest -t mitchm101/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t mitchm101/multi-worker:latest -t mitchm101/multi-worker:$SHA -f ./worker/Dockerfile ./worker
