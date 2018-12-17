@@ -3,3 +3,5 @@
 ## Requirements
 * Docker
 * Minikube
+* Travis
+* Google Cloud
