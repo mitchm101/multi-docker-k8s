@@ -5,3 +5,4 @@
 * Minikube
 * Travis
 * Google Cloud
+* Helm
