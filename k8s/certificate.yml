@@ -9,10 +9,11 @@ spec:
     kind: ClusterIssuer
   commonName: mmyers.org
   dnsNames:
-    - k8s.multi.com
+    - k8s.mmyers.org
   acme:
     config:
       - http01:
           ingressClass: nginx
         domains:
-          - k8s.multi.com
+          - mmyers.org
+          - k8s.mmyers.org
